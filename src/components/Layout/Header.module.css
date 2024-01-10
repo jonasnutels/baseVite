@@ -1,0 +1,37 @@
+.myHeader {
+  background-color: #ccc;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 10px 10px;
+  width: 100%;
+  height: 100px;
+}
+
+.myHeader ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.myHeader li {
+  cursor: pointer;
+  background-color: aliceblue;
+  padding: 7px;
+  border-radius: 10px;
+  margin: 0 5px; /* Add some margin between list items */
+  /* You can keep the rest of your styles for li */
+}
+
+@media screen and (max-width: 767px) {
+  .myHeader {
+    /* Your mobile styles */
+  }
+  .myHeader ul {
+    /* Your mobile styles */
+  }
+}

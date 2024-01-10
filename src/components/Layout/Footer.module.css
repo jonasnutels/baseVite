@@ -1,0 +1,8 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  background-color: #ccc;
+  border-radius: 10px 10px 0 0;
+}
